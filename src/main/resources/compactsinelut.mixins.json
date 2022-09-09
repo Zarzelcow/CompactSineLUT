@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.zarzelcow.compactsinelut.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinMathHelper"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
