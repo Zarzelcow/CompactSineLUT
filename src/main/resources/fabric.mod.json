@@ -6,9 +6,11 @@
   "description": "Backport of the CompactSineLUT algorithm used in Lithium.",
   "authors": [
     "coderbot16 (Original Rust impl)",
-    "jellysquid3 (Port to java for lithium)",
-    "ZarzelCow (Backport)"
+    "jellysquid3 (Port to java for lithium)"
   ],
+  "contact": {
+    "sources": "https://github.com/Zarzelcow/CompactSineLUT"
+  },
   "license": "LGPL-3.0-only",
   "icon": "assets/compactsinelut/icon.png",
   "environment": "*",
@@ -17,7 +19,6 @@
   ],
   "accessWidener" : "compactsinelut.accesswidener",
   "depends": {
-    "fabricloader": ">=0.12.0",
-    "minecraft": "1.8.9"
+    "fabricloader": ">=0.12.0"
   }
 }
